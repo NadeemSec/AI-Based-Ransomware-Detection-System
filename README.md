@@ -2,11 +2,6 @@
 AI-Based Ransomware Detection System using Machine Learning and Flask. This project uses a Random Forest Classifier to detect and classify ransomware-related activities as Safe, Suspicious, or Attack. Includes a real-time monitoring dashboard, threat prediction module, activity logs, and graphical visualization of security events.
 
 
-
-# AI-Based Ransomware Detection System
-
-This project is a Machine Learning-based cybersecurity solution designed to detect ransomware-related activities. The system uses a Random Forest Classifier trained on ransomware datasets and provides predictions through an interactive Flask web dashboard.
-
 ## Features
 
 - Ransomware threat prediction
