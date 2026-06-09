@@ -73,5 +73,3 @@ AI_Ransomware_Detection_System/
 ## Authors
 - Muhammad Nadeem
 
-Supervisor:
-- Sir Yawar Jan
