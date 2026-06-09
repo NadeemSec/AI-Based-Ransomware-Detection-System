@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Ransomware Detection Dashboard</title>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar">
+
+        <h2>AI Shield</h2>
+
+        <ul>
+
+            <li onclick="showSection('dashboard')" class="active">
+                Dashboard
+            </li>
+
+            <li onclick="showSection('logs')">
+                Threat Logs
+            </li>
+
+            <li onclick="showSection('monitor')">
+                AI Monitoring
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="main-content">
+
+        <!-- DASHBOARD -->
+
+        <div id="dashboard" class="section">
+
+            <div class="topbar">
+
+                <h1>AI Powered Ransomware Detection System</h1>
+
+                <div class="status">
+                    <span class="dot"></span>
+                    <span id="aiStatusText">ACTIVE</span>
+                </div>
+
+            </div>
+
+            <!-- CARDS -->
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Total Files Scanned</h3>
+                    <p id="scanCount">0</p>
+                </div>
+
+                <div class="card danger">
+                    <h3>Threats Detected</h3>
+                    <p id="threatCount">0</p>
+                </div>
+
+                <div class="card warning">
+                    <h3>Suspicious Activities</h3>
+                    <p id="suspiciousCount">0</p>
+                </div>
+
+                <div class="card success">
+                    <h3>AI Status</h3>
+                    <p id="statusCard">ACTIVE</p>
+                </div>
+
+            </div>
+
+            <!-- GRAPH -->
+
+            <div class="chart-container">
+
+                <canvas id="threatChart"></canvas>
+
+            </div>
+
+            <!-- AI PREDICTION -->
+
+            <div class="prediction-section">
+
+                <h2>AI Threat Prediction</h2>
+
+                <form id="predictionForm">
+
+                    <div class="form-grid">
+
+                        <input type="number" id="Time" placeholder="Time" required>
+
+                        <input type="number" id="Clusters" placeholder="Clusters" required>
+
+                        <input type="number" id="BTC" placeholder="BTC" required>
+
+                        <input type="number" id="USD" placeholder="USD" required>
+
+                        <input type="number" id="Netflow_Bytes" placeholder="Netflow Bytes" required>
+
+                        <input type="number" id="Port" placeholder="Port" required>
+
+                    </div>
+
+                    <button type="submit">
+                        Analyze Threat
+                    </button>
+
+                </form>
+
+                <div class="prediction-result" id="predictionResult">
+
+                    Waiting for AI analysis...
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- THREAT LOGS -->
+
+        <div id="logs" class="section hidden">
+
+            <h2>Threat Logs</h2>
+
+            <div class="logs-box" id="logsBox">
+
+            </div>
+
+        </div>
+
+        <!-- MONITORING -->
+
+        <div id="monitor" class="section hidden">
+
+            <h2>AI Monitoring</h2>
+
+            <div class="monitor-box">
+
+                <p>
+                    AI engine is monitoring network traffic,
+                    file activity and ransomware behavior patterns
+                    in real time.
+                </p>
+
+                <br>
+
+                <button onclick="toggleAI()" id="aiButton">
+                    Stop Monitoring
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+let aiRunning = true;
+
+function showSection(sectionId){
+
+    let sections = document.querySelectorAll(".section");
+
+    sections.forEach(sec=>{
+        sec.classList.add("hidden");
+    });
+
+    document.getElementById(sectionId).classList.remove("hidden");
+}
+
+function toggleAI(){
+
+    aiRunning = !aiRunning;
+
+    let text = aiRunning ? "ACTIVE" : "STOPPED";
+
+    document.getElementById("aiStatusText").innerText = text;
+    document.getElementById("statusCard").innerText = text;
+
+    document.getElementById("aiButton").innerText =
+        aiRunning ? "Stop Monitoring" : "Start Monitoring";
+}
+
+/* CHART */
+
+let threatChart;
+
+function initializeChart(){
+
+    const ctx = document.getElementById("threatChart");
+
+    threatChart = new Chart(ctx, {
+
+        type: "line",
+
+        data: {
+
+            labels: [],
+
+            datasets: [{
+
+                label: "Threat Activity",
+
+                data: [],
+
+                borderColor: "#ff3b3b",
+
+                backgroundColor: "rgba(255,59,59,0.2)",
+
+                tension: 0.4,
+
+                fill: true
+
+            }]
+        }
+    });
+}
+
+/* LOGS */
+
+function addLog(message,type){
+
+    const logsBox = document.getElementById("logsBox");
+
+    const log = document.createElement("div");
+
+    log.className = "log " + type;
+
+    log.innerText = message;
+
+    logsBox.prepend(log);
+}
+
+/* DASHBOARD UPDATE */
+
+function updateDashboard(){
+
+    if(!aiRunning){
+        return;
+    }
+
+    fetch("/get_data")
+
+    .then(res=>res.json())
+
+    .then(data=>{
+
+        document.getElementById("scanCount").innerText =
+            data.scans;
+
+        document.getElementById("threatCount").innerText =
+            data.threats;
+
+        document.getElementById("suspiciousCount").innerText =
+            data.suspicious;
+
+        addLog(data.latest_log,data.log_type);
+
+        let currentTime =
+            new Date().toLocaleTimeString();
+
+        threatChart.data.labels.push(currentTime);
+
+        threatChart.data.datasets[0].data.push(
+            data.threats
+        );
+
+        if(threatChart.data.labels.length > 10){
+
+            threatChart.data.labels.shift();
+
+            threatChart.data.datasets[0].data.shift();
+        }
+
+        threatChart.update();
+
+    });
+}
+
+/* AI PREDICTION */
+
+document.getElementById("predictionForm")
+.addEventListener("submit",function(e){
+
+e.preventDefault();
+
+const data = {
+
+Time: document.getElementById("Time").value,
+Clusters: document.getElementById("Clusters").value,
+BTC: document.getElementById("BTC").value,
+USD: document.getElementById("USD").value,
+Netflow_Bytes:
+document.getElementById("Netflow_Bytes").value,
+Port: document.getElementById("Port").value
+
+};
+
+fetch("/predict",{
+
+method:"POST",
+
+headers:{
+"Content-Type":"application/json"
+},
+
+body:JSON.stringify(data)
+
+})
+
+.then(res=>res.json())
+
+.then(result=>{
+
+document.getElementById("predictionResult")
+.innerHTML =
+
+"<h3>" + result.prediction + "</h3>" +
+"<p>Confidence : " +
+result.confidence +
+"%</p>";
+
+});
+
+});
+
+initializeChart();
+
+setInterval(updateDashboard,3000);
+
+</script>
+
+</body>
+</html>

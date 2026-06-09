@@ -1,0 +1,258 @@
+2026-06-09 10:27:26.517728 - Normal File Access
+2026-06-09 10:27:29.517757 - Normal File Access
+2026-06-09 10:27:32.531565 - Network Traffic Analyzed
+2026-06-09 10:27:35.518756 - Unknown Process Accessing Files
+2026-06-09 10:27:36.257734 - Unknown Process Accessing Files
+2026-06-09 10:27:38.519086 - Suspicious Encryption Activity
+2026-06-09 10:27:41.522803 - Network Traffic Analyzed
+2026-06-09 10:27:44.522633 - Network Traffic Analyzed
+2026-06-09 10:27:47.527964 - Normal File Access
+2026-06-09 10:27:50.521013 - Unknown Process Accessing Files
+2026-06-09 10:27:53.525587 - Unknown Process Accessing Files
+2026-06-09 10:27:56.523366 - Network Traffic Analyzed
+2026-06-09 10:27:59.524165 - Suspicious Encryption Activity
+2026-06-09 10:28:02.512858 - Unknown Process Accessing Files
+2026-06-09 10:28:05.520677 - Multiple File Rename Detected
+2026-06-09 10:28:08.520424 - Suspicious Encryption Activity
+2026-06-09 10:28:11.517416 - Multiple File Rename Detected
+2026-06-09 10:28:14.520438 - Ransomware Signature Detected
+2026-06-09 10:28:17.518721 - Unknown Process Accessing Files
+2026-06-09 10:28:20.520111 - Network Traffic Analyzed
+2026-06-09 10:28:23.518067 - Suspicious Encryption Activity
+2026-06-09 10:28:27.243346 - File Scan Completed
+2026-06-09 10:28:30.250803 - Network Traffic Analyzed
+2026-06-09 10:28:33.256157 - File Scan Completed
+2026-06-09 10:28:36.246498 - Multiple File Rename Detected
+2026-06-09 10:28:36.259808 - File Scan Completed
+2026-06-09 10:28:39.247519 - File Scan Completed
+2026-06-09 10:28:42.247060 - Multiple File Rename Detected
+2026-06-09 10:28:45.249203 - Multiple File Rename Detected
+2026-06-09 10:28:48.249249 - Multiple File Rename Detected
+2026-06-09 10:28:51.245044 - Unknown Process Accessing Files
+2026-06-09 10:28:54.254690 - Ransomware Signature Detected
+2026-06-09 10:28:57.251126 - Ransomware Signature Detected
+2026-06-09 10:29:00.253212 - Network Traffic Analyzed
+2026-06-09 10:29:03.245339 - Ransomware Signature Detected
+2026-06-09 10:29:06.255124 - Unknown Process Accessing Files
+2026-06-09 10:29:09.241755 - Suspicious Encryption Activity
+2026-06-09 10:29:12.256348 - Suspicious Encryption Activity
+2026-06-09 10:29:15.254583 - File Scan Completed
+2026-06-09 10:29:18.241712 - Normal File Access
+2026-06-09 10:29:21.239660 - Network Traffic Analyzed
+2026-06-09 10:29:24.244556 - Ransomware Signature Detected
+2026-06-09 10:29:27.253088 - Unknown Process Accessing Files
+2026-06-09 10:29:30.246439 - File Scan Completed
+2026-06-09 10:29:33.241165 - Unknown Process Accessing Files
+2026-06-09 10:29:36.249798 - Unknown Process Accessing Files
+2026-06-09 10:29:36.262590 - Unknown Process Accessing Files
+2026-06-09 10:29:39.240522 - Unknown Process Accessing Files
+2026-06-09 10:29:42.250676 - Unknown Process Accessing Files
+2026-06-09 10:29:45.243543 - Unknown Process Accessing Files
+2026-06-09 10:29:48.245451 - Unknown Process Accessing Files
+2026-06-09 10:29:51.253363 - Normal File Access
+2026-06-09 10:29:54.238412 - Normal File Access
+2026-06-09 10:29:57.251540 - Unknown Process Accessing Files
+2026-06-09 10:30:00.253326 - Multiple File Rename Detected
+2026-06-09 10:30:03.254752 - File Scan Completed
+2026-06-09 10:30:06.251722 - Unknown Process Accessing Files
+2026-06-09 10:30:09.249250 - File Scan Completed
+2026-06-09 10:30:12.243920 - Network Traffic Analyzed
+2026-06-09 10:30:15.240948 - Network Traffic Analyzed
+2026-06-09 10:30:18.248868 - Suspicious Encryption Activity
+2026-06-09 10:30:21.249592 - Ransomware Signature Detected
+2026-06-09 10:30:24.254921 - Network Traffic Analyzed
+2026-06-09 10:30:27.255244 - Network Traffic Analyzed
+2026-06-09 10:30:30.248835 - Multiple File Rename Detected
+2026-06-09 10:30:33.249384 - Network Traffic Analyzed
+2026-06-09 10:30:36.249724 - Suspicious Encryption Activity
+2026-06-09 10:30:36.261924 - Suspicious Encryption Activity
+2026-06-09 10:30:39.252699 - Suspicious Encryption Activity
+2026-06-09 10:30:42.244144 - Normal File Access
+2026-06-09 10:30:45.251101 - Normal File Access
+2026-06-09 10:30:48.239109 - File Scan Completed
+2026-06-09 10:30:51.251871 - File Scan Completed
+2026-06-09 10:30:54.252593 - Unknown Process Accessing Files
+2026-06-09 10:30:57.253258 - Unknown Process Accessing Files
+2026-06-09 10:31:00.247010 - Unknown Process Accessing Files
+2026-06-09 10:31:03.240313 - Suspicious Encryption Activity
+2026-06-09 10:31:06.246123 - File Scan Completed
+2026-06-09 10:31:09.244814 - File Scan Completed
+2026-06-09 10:31:12.256733 - Normal File Access
+2026-06-09 10:31:15.248679 - File Scan Completed
+2026-06-09 10:31:17.528998 - Ransomware Signature Detected
+2026-06-09 10:31:18.850873 - Network Traffic Analyzed
+2026-06-09 10:31:20.068421 - Network Traffic Analyzed
+2026-06-09 10:31:21.252372 - Normal File Access
+2026-06-09 10:31:23.242234 - Network Traffic Analyzed
+2026-06-09 10:31:24.250716 - Ransomware Signature Detected
+2026-06-09 10:31:26.254669 - Ransomware Signature Detected
+2026-06-09 10:31:27.251248 - Ransomware Signature Detected
+2026-06-09 10:31:29.253605 - Unknown Process Accessing Files
+2026-06-09 10:31:30.248163 - Unknown Process Accessing Files
+2026-06-09 10:31:32.253640 - Ransomware Signature Detected
+2026-06-09 10:31:33.251131 - Suspicious Encryption Activity
+2026-06-09 10:31:35.254446 - Suspicious Encryption Activity
+2026-06-09 10:31:36.255751 - Suspicious Encryption Activity
+2026-06-09 10:31:38.254596 - Network Traffic Analyzed
+2026-06-09 10:31:39.244205 - Normal File Access
+2026-06-09 10:31:41.256035 - Suspicious Encryption Activity
+2026-06-09 10:31:42.255332 - File Scan Completed
+2026-06-09 10:31:44.255961 - File Scan Completed
+2026-06-09 10:31:45.257081 - Suspicious Encryption Activity
+2026-06-09 10:31:47.242016 - Suspicious Encryption Activity
+2026-06-09 10:31:48.257131 - Ransomware Signature Detected
+2026-06-09 10:31:50.251785 - Ransomware Signature Detected
+2026-06-09 10:31:51.243515 - File Scan Completed
+2026-06-09 10:31:53.244988 - Multiple File Rename Detected
+2026-06-09 10:31:54.243995 - Multiple File Rename Detected
+2026-06-09 10:31:56.240700 - Normal File Access
+2026-06-09 10:31:57.245801 - Normal File Access
+2026-06-09 10:31:59.238535 - Ransomware Signature Detected
+2026-06-09 10:32:00.247059 - File Scan Completed
+2026-06-09 10:32:02.242269 - Network Traffic Analyzed
+2026-06-09 10:32:03.249817 - Suspicious Encryption Activity
+2026-06-09 10:32:05.250519 - File Scan Completed
+2026-06-09 10:32:06.248527 - Multiple File Rename Detected
+2026-06-09 10:32:08.246080 - Network Traffic Analyzed
+2026-06-09 10:32:09.248266 - Suspicious Encryption Activity
+2026-06-09 10:32:11.250273 - Suspicious Encryption Activity
+2026-06-09 10:32:12.254179 - Network Traffic Analyzed
+2026-06-09 10:32:14.254613 - Ransomware Signature Detected
+2026-06-09 10:32:15.242590 - Ransomware Signature Detected
+2026-06-09 10:32:17.250180 - Suspicious Encryption Activity
+2026-06-09 10:32:18.253890 - Normal File Access
+2026-06-09 10:32:36.242555 - File Scan Completed
+2026-06-09 10:32:36.256570 - Normal File Access
+2026-06-09 10:33:36.245790 - Ransomware Signature Detected
+2026-06-09 10:33:36.258532 - Suspicious Encryption Activity
+2026-06-09 10:34:36.245994 - Network Traffic Analyzed
+2026-06-09 10:34:36.253361 - File Scan Completed
+2026-06-09 10:34:38.600365 - Unknown Process Accessing Files
+2026-06-09 10:34:41.070826 - Unknown Process Accessing Files
+2026-06-09 10:34:44.053721 - Ransomware Signature Detected
+2026-06-09 10:34:47.059858 - Normal File Access
+2026-06-09 10:34:50.064363 - Multiple File Rename Detected
+2026-06-09 10:34:53.073235 - Unknown Process Accessing Files
+2026-06-09 10:34:56.063140 - Network Traffic Analyzed
+2026-06-09 10:34:59.060638 - Ransomware Signature Detected
+2026-06-09 10:35:02.063814 - Network Traffic Analyzed
+2026-06-09 10:35:05.059630 - Network Traffic Analyzed
+2026-06-09 10:35:08.060707 - Suspicious Encryption Activity
+2026-06-09 10:35:11.059788 - Multiple File Rename Detected
+2026-06-09 10:35:14.064785 - Normal File Access
+2026-06-09 10:35:17.061626 - File Scan Completed
+2026-06-09 10:35:20.066347 - Ransomware Signature Detected
+2026-06-09 10:35:23.070408 - Multiple File Rename Detected
+2026-06-09 10:35:26.070639 - Unknown Process Accessing Files
+2026-06-09 10:35:29.072079 - Suspicious Encryption Activity
+2026-06-09 10:35:32.062318 - Multiple File Rename Detected
+2026-06-09 10:35:35.067429 - File Scan Completed
+2026-06-09 10:35:36.258339 - Ransomware Signature Detected
+2026-06-09 10:35:38.059659 - Suspicious Encryption Activity
+2026-06-09 10:35:41.060145 - Unknown Process Accessing Files
+2026-06-09 10:35:44.060678 - Network Traffic Analyzed
+2026-06-09 10:35:47.059402 - Unknown Process Accessing Files
+2026-06-09 10:35:50.069214 - Normal File Access
+2026-06-09 10:35:53.063462 - Suspicious Encryption Activity
+2026-06-09 10:35:56.065939 - Multiple File Rename Detected
+2026-06-09 10:35:59.064923 - Suspicious Encryption Activity
+2026-06-09 10:36:02.067458 - Network Traffic Analyzed
+2026-06-09 10:36:05.069031 - File Scan Completed
+2026-06-09 10:36:08.055343 - File Scan Completed
+2026-06-09 10:36:11.068662 - Multiple File Rename Detected
+2026-06-09 10:36:14.066004 - Normal File Access
+2026-06-09 10:36:17.068407 - Ransomware Signature Detected
+2026-06-09 10:36:20.067423 - Normal File Access
+2026-06-09 10:36:23.067461 - Suspicious Encryption Activity
+2026-06-09 10:36:26.066779 - Unknown Process Accessing Files
+2026-06-09 10:36:29.066034 - File Scan Completed
+2026-06-09 10:36:32.074621 - Unknown Process Accessing Files
+2026-06-09 10:36:35.069976 - Suspicious Encryption Activity
+2026-06-09 10:36:36.247743 - Suspicious Encryption Activity
+2026-06-09 10:36:38.065359 - Network Traffic Analyzed
+2026-06-09 10:36:41.073327 - Unknown Process Accessing Files
+2026-06-09 10:36:44.060568 - Suspicious Encryption Activity
+2026-06-09 10:36:47.061924 - Multiple File Rename Detected
+2026-06-09 10:36:50.060544 - Multiple File Rename Detected
+2026-06-09 10:36:53.068477 - Normal File Access
+2026-06-09 10:36:56.070431 - Normal File Access
+2026-06-09 10:36:59.069830 - Network Traffic Analyzed
+2026-06-09 10:37:02.070700 - File Scan Completed
+2026-06-09 10:37:05.059309 - Ransomware Signature Detected
+2026-06-09 10:37:08.073082 - File Scan Completed
+2026-06-09 10:37:11.058783 - Suspicious Encryption Activity
+2026-06-09 10:37:14.067476 - Network Traffic Analyzed
+2026-06-09 10:37:17.067931 - Unknown Process Accessing Files
+2026-06-09 10:37:20.072095 - File Scan Completed
+2026-06-09 10:37:23.063812 - Suspicious Encryption Activity
+2026-06-09 10:37:26.070171 - Suspicious Encryption Activity
+2026-06-09 10:37:29.063291 - File Scan Completed
+2026-06-09 10:37:32.060664 - Ransomware Signature Detected
+2026-06-09 10:37:35.075309 - Suspicious Encryption Activity
+2026-06-09 10:37:36.247572 - Suspicious Encryption Activity
+2026-06-09 10:37:38.063263 - Multiple File Rename Detected
+2026-06-09 10:37:41.061990 - File Scan Completed
+2026-06-09 10:37:44.066617 - Normal File Access
+2026-06-09 10:37:47.056255 - Ransomware Signature Detected
+2026-06-09 10:37:50.070045 - Suspicious Encryption Activity
+2026-06-09 10:37:53.065110 - Network Traffic Analyzed
+2026-06-09 10:37:56.071667 - Unknown Process Accessing Files
+2026-06-09 10:37:59.060065 - Unknown Process Accessing Files
+2026-06-09 10:38:02.059810 - Suspicious Encryption Activity
+2026-06-09 10:38:05.058812 - Unknown Process Accessing Files
+2026-06-09 10:38:08.060552 - Normal File Access
+2026-06-09 10:38:11.059674 - File Scan Completed
+2026-06-09 10:38:14.058613 - Suspicious Encryption Activity
+2026-06-09 10:38:17.061336 - Network Traffic Analyzed
+2026-06-09 10:38:20.058279 - Suspicious Encryption Activity
+2026-06-09 10:38:23.064850 - File Scan Completed
+2026-06-09 10:38:26.062823 - Ransomware Signature Detected
+2026-06-09 10:38:29.055327 - Normal File Access
+2026-06-09 10:38:32.073887 - Network Traffic Analyzed
+2026-06-09 10:38:35.069259 - Suspicious Encryption Activity
+2026-06-09 10:38:36.255877 - Ransomware Signature Detected
+2026-06-09 10:38:38.062218 - File Scan Completed
+2026-06-09 10:38:41.055207 - Network Traffic Analyzed
+2026-06-09 10:38:44.063900 - Unknown Process Accessing Files
+2026-06-09 10:38:47.060247 - File Scan Completed
+2026-06-09 10:38:50.059586 - Multiple File Rename Detected
+2026-06-09 10:39:36.254250 - Suspicious Encryption Activity
+2026-06-09 10:40:36.238086 - Network Traffic Analyzed
+2026-06-09 10:41:36.243668 - Suspicious Encryption Activity
+2026-06-09 10:42:36.252322 - Normal File Access
+2026-06-09 10:43:36.256786 - Unknown Process Accessing Files
+2026-06-09 10:44:36.243008 - Suspicious Encryption Activity
+2026-06-09 10:45:36.249405 - Ransomware Signature Detected
+2026-06-09 10:46:36.253673 - Suspicious Encryption Activity
+2026-06-09 10:47:36.242194 - Normal File Access
+2026-06-09 10:48:36.244134 - Network Traffic Analyzed
+2026-06-09 10:49:36.248931 - File Scan Completed
+2026-06-09 10:50:36.254878 - Normal File Access
+2026-06-09 10:51:36.256789 - Network Traffic Analyzed
+2026-06-09 10:52:36.244993 - Ransomware Signature Detected
+2026-06-09 10:53:36.246867 - Ransomware Signature Detected
+2026-06-09 10:54:36.247041 - Suspicious Encryption Activity
+2026-06-09 10:55:36.243113 - Ransomware Signature Detected
+2026-06-09 10:56:36.257037 - Ransomware Signature Detected
+2026-06-09 10:57:36.246403 - Ransomware Signature Detected
+2026-06-09 10:58:36.250290 - File Scan Completed
+2026-06-09 10:59:36.239955 - Suspicious Encryption Activity
+2026-06-09 11:00:36.255463 - Unknown Process Accessing Files
+2026-06-09 11:01:36.246009 - Network Traffic Analyzed
+2026-06-09 11:02:36.244732 - Ransomware Signature Detected
+2026-06-09 11:03:36.248639 - Multiple File Rename Detected
+2026-06-09 11:04:36.243322 - Ransomware Signature Detected
+2026-06-09 11:05:36.255741 - Multiple File Rename Detected
+2026-06-09 11:06:36.241299 - Normal File Access
+2026-06-09 11:07:36.241592 - Normal File Access
+2026-06-09 11:08:36.245599 - Suspicious Encryption Activity
+2026-06-09 11:09:36.253558 - Unknown Process Accessing Files
+2026-06-09 11:10:36.244660 - Network Traffic Analyzed
+2026-06-09 11:11:36.246154 - Suspicious Encryption Activity
+2026-06-09 11:12:36.240731 - Network Traffic Analyzed
+2026-06-09 11:13:36.246176 - Normal File Access
+2026-06-09 11:14:36.250866 - Multiple File Rename Detected
+2026-06-09 11:15:36.242820 - Normal File Access
+2026-06-09 11:16:36.244403 - Suspicious Encryption Activity
+2026-06-09 11:17:36.245224 - Ransomware Signature Detected
+2026-06-09 11:18:36.244328 - File Scan Completed
